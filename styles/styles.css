@@ -1,0 +1,104 @@
+*{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+body{
+    background-color: #ff9292;
+    background-image: url("../images/Shape 1.png"), url("../images/Shape 2.png"), url("../images/Shape 3.png")
+    ,url("../images/Shape 4.png"),url("../images/Shape 5.png"), url("../images/Background.png");
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,repeat-x,no-repeat;
+
+    background-position:
+    bottom 34px left -25px,
+    bottom 95px right -45px,
+    bottom 132px left 10px,
+    bottom 600px right -40px,
+    bottom 540px right -40px,
+    top 920px right 50%
+
+    ;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat-Regular.ttf");
+}
+/* ---HEADER---*/
+
+#imgLogo{
+    height: 50px;
+}
+#imgCarrito{
+    height: 40px;
+    padding-top: 4px;
+}
+#menuNav{
+display: flex;
+justify-content: space-around;
+
+}
+
+#menuNav a{
+    color: #fff9f4;
+    padding-top: 20px;
+}
+
+.linkMenu{
+    font-size: 19px;
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.link{
+    font-size: 19px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+    text-decoration:none;
+}
+/* ---ASIDE---*/
+#divTexto{
+    padding-top: 90px;
+    font-size: 100px;
+    letter-spacing: 3px;
+    color: #fff9f4;
+    font-weight: 900;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#love{
+    color: yellow;
+}
+#subtitle{
+    font-size: 46px;
+    letter-spacing: 3px;
+    color: #fff9f4;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#divArrow{
+    text-align: center;
+}
+#imagenBurger{
+    text-align: center;
+    filter: drop-shadow(9.259px 14.257px 21.5px rgba(0,0,0,0.3));
+}
+#divMenu{
+    font-size: 150px;
+    letter-spacing: 11px;
+    line-height: 53px;
+    color: #ffdd67;
+    font-weight: 900;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 20px;
+}
+#divLorem{
+    font-size: 25px;
+    color: #ff9292;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 40px;
+}

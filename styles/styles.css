@@ -1,11 +1,10 @@
 *{
-    margin-left: 20px;
-    margin-top: 30px;
+
 }
 body{
     background-color: #ff9292;
-    background-image: url("../images/Shape 1.png"), url("../images/Shape 2.png"), url("../images/Shape 3.png")
-    ,url("../images/Shape 4.png"),url("../images/Shape 5.png"), url("../images/Background.png");
+    background-image: url("../images/Shapes/Shape 1.png"), url("../images/Shapes/Shape 2.png"), url("../images/Shapes/Shape 3.png")
+    ,url("../images/Shapes/Shape 4.png"),url("../images/Shapes/Shape 5.png"), url("../images/Shapes/Background.png");
     background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,repeat-x,no-repeat;
 
     background-position:
@@ -84,7 +83,7 @@ justify-content: space-around;
     text-align: center;
     filter: drop-shadow(9.259px 14.257px 21.5px rgba(0,0,0,0.3));
 }
-#divMenu{
+#tituloMenu{
     font-size: 150px;
     letter-spacing: 11px;
     line-height: 53px;
@@ -101,4 +100,116 @@ justify-content: space-around;
     font-family: "Montserrat";
     text-align: center;
     padding-top: 40px;
+}
+
+.contenedorPrecios{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 65px;
+}
+.lineaCentrada{
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #403f3f;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+
+}
+.precioPlato{
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    color: #ff9292;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+
+}
+#bebidas{
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    color: #403f3f;
+    font-family: "Montserrat";
+    text-align: center;
+}
+#bebidas .drinks{
+    font-weight: 700;
+}
+.divMenu{
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    color: #403f3f;
+    font-family: "Montserrat";
+
+}
+.divMenu h4{
+    font-weight: 700;
+}
+.botonCartRosa{
+    width: 270px;
+    height: 75px;
+    border-radius: 37px;
+    background-color: #ff9292;
+    color:white;
+}
+.contenedorPagCombos{
+    background-color: #ff9292;
+    padding-bottom: 250px;
+}
+.contenedorPagCombos h2{
+    font-size: 100px;
+    letter-spacing: 8px;
+    line-height: 53px;
+    color: #ffdd67;
+    font-weight: 900;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 200px;
+}
+.contenedorPagCombos .pCombos{
+
+    height: 70px;
+    font-size: 25px;
+    color: #fff9f4;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.contenedorCombos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.combos{
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 54px;
+    color: #403f3f;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.combos .botonComboBlanco{
+    width: 183px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #fff9f4;
+    border: 3px solid #ff9292;
+}
+.combos .botonComboRosa{
+    width: 183px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #ff9292;
+}
+.contenedorOrder .tituloOrder{
+    font-size: 50px;
+    color: #ff9292;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
 }

@@ -346,12 +346,12 @@ justify-content: space-around;
 
 
 .contenedorCreators{
-
-    height: 714px;
     background-color: #ff9292;
 }
 .contenedorCreators h3{
-    padding-top: 50px;
+    padding-right: 350px;
+    padding-top: 250px;
+    text-align: center;
     font-size: 69px;
     letter-spacing: 5px;
     line-height: 45px;
@@ -365,5 +365,58 @@ justify-content: space-around;
     color: #fff9f4;
     font-weight: 400;
     font-family: "Montserrat";
+    width: 100px;
+    height: 100px;
+    border-radius: 250px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.contenedorInfoCreators{
+    height: 700px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-right: 950px;
+    font-size: 25px;
+    color: #fff9f4;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.divPadreCreators{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedorPs{
+    display: flex;
+    flex-direction: column;
+}
 
+.contenedorBurgerBlog h3{
+    font-size: 67px;
+    color: #ff9292;
+    font-weight: 900;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.pBurgerRecipes{
+    font-size: 37px;
+    color: #ff9292;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.contenedorBlogs{
+    display: flex;
+    justify-content: center;
+}
+.divBlogs p{
+    font-size: 14px;
+    line-height: 33px;
+    color: #555555;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
 }

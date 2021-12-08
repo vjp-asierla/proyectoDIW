@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
+    <meta name="author"content="Asier Labrador Alcon">
     <title>Food Restaurant</title>
     <link rel="shortcut icon" type="image/jpg" href="images/Logos/favicon.png" />
     <link rel="stylesheet" href="styles/styles.css">
@@ -9,36 +10,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
+
 </head>
 <body>
 <header>
 
     <div id="menuNav">
         <img src="images/Logos/logo.png" id="imgLogo" alt="Imagen del Logo de la empresa">
-        <a class="linkMenu" href="index.html">MENÚ</a>
-        <a class="link" href="index.html">COMBOS</a>
-        <a class="link" href="index.html">RESERVATION</a>
-        <a class="link" href="index.html">ABOUT US</a>
-        <a class="link" href="index.html">CONTACT</a>
+        <a class="linkMenu" href="#menu">MENÚ</a>
+        <a class="link" href="#combos">COMBOS</a>
+        <a class="link" href="#reservation">RESERVATION</a>
+        <a class="link" href="#aboutus">ABOUT US</a>
+        <a class="link" href="#footer">CONTACT</a>
         <img src="images/Logos/carrito.png" id="imgCarrito" alt="Imagen de un carrito de la compra">
     </div>
 
 
 </header>
 <aside>
+    <div class="avisoCookies" id="divCookies">
+        <img class="galleta" src="images/imagenes/cookie.svg" alt="galleta">
+        <h3 class="titulo" >Cookies</h3>
+        <p>
+            Este restaurante utiliza cookies de tercero con finalidades analíticas y publicitarias.</p>
+        <button class="botonCookies" id="botonCookies">De Acuerdo</button>
+        <button class="botonCookies" id="botonInfoCookies">Saber Más</button>
+
+
+    </div>
+
+
     <div id="divTexto">
         <p>WE <span id="love">LOVE</span> AMERICAN FOOD</p>
 
-        <span>DISCOVER WHY</span>
+        <span id="discover">DISCOVER WHY</span>
     </div>
     <div id="divArrow">
-        <img src="images/Shapes/Arrow.png">
+        <img src="images/Shapes/Arrow.png" alt="Imagen de una flecha">
     </div>
     <div id="imagenBurger">
-        <img    src="images/imagenes/imagenBurger.png">
+        <img    src="images/imagenes/imagenBurger.png" alt="Imagen de una Hamburguesa">
     </div>
 
-    <div class="contenedorMenu">
+    <div id="menu" class="contenedorMenu">
         <h3 id="tituloMenu">MENU</h3>
 
         <div id="divLorem">
@@ -65,7 +79,7 @@
                 <span class="nombrePlato">Berry Muffin</span><span class="precioPlato">€00</span>
             </div>
         </div>
-            <p class="lineaCentrada">IF YOU WANT, YOU CAN EXCHANGE A MILKSHAKE FOR A DRINK <span class="precioPlato">(+ €0.85)</span></p>
+        <p class="lineaCentrada">IF YOU WANT, YOU CAN EXCHANGE A MILKSHAKE FOR A DRINK <span class="precioPlato">(+ €0.85)</span></p>
 
 
         <div id="bebidas">
@@ -81,7 +95,7 @@
 
 
 
-    <div class="contenedorPagCombos">
+    <div id="combos" class="contenedorPagCombos">
         <h2>COMBOS</h2>
         <p class="pCombos">We have the perfect Burger combination.Choose your best option.</p>
 
@@ -90,7 +104,7 @@
                 <h5>COMBO 1</h5>
                 <p>CLASSIC BURGER</p>
                 <p>CHOCOLATE MILKSHAKE</p>
-                <p>NEW YORK CHEESECAKE</p><br>
+                <p id="cheesecake">NEW YORK CHEESECAKE</p><br>
                 <span class="precioPlato">€00</span><br>
                 <button class="botonComboBlanco">ADD TO CART</button>
             </div>
@@ -105,8 +119,8 @@
             <div class="combos">
                 <h5>COMBO 3</h5>
                 <p>DOUBLE CHEESE BURGER</p>
-                <p>BANANA MILKSHAKE</p>
-                <p>SACHER CAKE</p><br>
+                <p id="bananaMilk" >BANANA MILKSHAKE</p>
+                <p id="sacherCake">SACHER CAKE</p><br>
                 <span class="precioPlato">€00</span><br>
                 <button class="botonComboBlanco">ADD TO CART</button>
             </div>
@@ -114,8 +128,8 @@
         </div>
     </div>
 
-    <div class="contenedorOrder">
-        <h5 class="tituloOrder">HOW DO YOU ORDER OUR BURGERS?</h5>
+    <div id="order" class="contenedorOrder">
+        <h5 class="tituloSectionOrder">HOW DO YOU ORDER OUR BURGERS?</h5>
         <div class="contenedorOrders">
             <div class="divOrder">
                 <h5 class="tituloOrder">CHOOSE</h5>
@@ -132,83 +146,83 @@
         </div>
 
 
-    <div class="padreDelivery">
-    <div class="contenedorDelivery">
-    <h3>FREE DELIVERY</h3>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-        tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-    <button class="botonCartRosa">GET VOUCHER</button>
+        <div class="padreDelivery">
+            <div class="contenedorDelivery">
+                <h3>FREE DELIVERY</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                    tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <button class="botonCartRosa">GET VOUCHER</button>
+            </div>
+        </div>
     </div>
-    </div>
-    </div>
-    <div class="contenedorReservation">
+    <div id="reservation" class="contenedorReservation">
         <h3>MAKE A RESERVATION</h3>
 
-    <div class="fila1">
+        <div class="fila1">
             <p>2 people</p>
             <p>2020-08-17</p>
             <p>10:00</p>
-    </div>
-    <div class="fila2">
+        </div>
+        <div class="fila2">
             <p>Name</p>
             <p>Email</p>
             <p>Phone</p>
-</div>
+        </div>
 
         <button class="botonSubmitBlanco"><span class="submit">SUBMIT</span> </button>
     </div>
 
-    <div class="contenedorAboutUs">
+    <div id="aboutus" class="contenedorAboutUs">
         <div class="divInvisible"></div>
 
         <div class="divAbout">
-        <h3>ABOUT US</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteursint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum. </p>
-    </div>
+            <h3>ABOUT US</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteursint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                anim id est laborum. </p>
+        </div>
 
     </div>
 
-    <div class="contenedorCreators">
+    <div id="creators" class="contenedorCreators">
         <h3>THE CREATORS</h3>
         <div class="divPadreCreators">
-        <div class="contenedorPs">
-            <div class="divP">P</div>
-            <div class="divP">P</div>
-        </div>
-        <div class="contenedorInfoCreators">
-            <h6>Name Creator</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <h6>Name Creator</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="contenedorPs">
+                <div class="divP">P</div>
+                <div class="divP">P</div>
             </div>
-    </div>
+            <div class="contenedorInfoCreators">
+                <h6>Name Creator</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h6>Name Creator</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
     </div>
 
-    <div class="contenedorBurgerBlog">
+    <div id="blogs" class="contenedorBurgerBlog">
         <h3>BURGER BLOG</h3>
         <p class="pBurgerRecipes">Discover the best Burger recipes</p>
 
         <div class="contenedorBlogs">
             <div class="divBlogs">
-                <img src="images/imagenes/ImagenesBurgers.png">
+                <img src="images/imagenes/ImagenesBurgers.png" alt="Imagen de Hamburguesa">
                 <p class="tituloBlog">Classic Burger / 26th May,2020</p>
                 <p class="pTituloLorem">Lorem ipsum dolor sit</p>
                 <p class="pLorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
                 <span class="pReadMore">READ MORE</span>
             </div>
             <div class="divBlogs">
-                <img src="images/imagenes/ImagenesBurgers.png">
+                <img src="images/imagenes/ImagenesBurgers.png" alt="Imagen de Hamburguesa">
                 <p class="tituloBlog">Cheese Burger / 26th May,2020</p>
                 <p class="pTituloLorem">Lorem ipsum dolor sit</p>
                 <p class="pLorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
                 <span class="pReadMore">READ MORE</span>
             </div>
             <div class="divBlogs">
-                <img src="images/imagenes/ImagenesBurgers.png">
+                <img src="images/imagenes/ImagenesBurgers.png" alt="Imagen de Hamburguesa">
                 <p class="tituloBlog">Double Cheese Burger / 23th June,2020</p>
                 <p class="pTituloLorem">Lorem ipsum dolor sit</p>
                 <p class="pLorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
@@ -222,74 +236,75 @@
 
 </aside>
 <footer>
-    <div class="contenedorFooter">
+    <div id="footer" class="contenedorFooter">
         <div class="contenedor1Fila">
-    <div class="divFooterAboutUs">
-        <h6>ABOUT US</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-            et dolore magna aliqua. Ut</p>
-    </div>
+            <div class="divFooterAboutUs">
+                <h6>ABOUT US</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut</p>
+            </div>
 
-    <div class="divListaAboutUs">
-        <h6>ABOUT US</h6>
-        <ul>
-            <li>Team</li>
-            <li>Join Us</li>
-            <li>Ethic</li>
-            <li>Goals</li>
-        </ul>
-    </div>
-    <div class="divListaMenu">
-        <h6>MENU</h6>
-        <ul>
-            <li>Combos</li>
-            <li>Reservation</li>
-            <li>Our Chef</li>
-            <li>Contact</li>
-        </ul>
-    </div>
+            <div class="divListaAboutUs">
+                <h6>ABOUT US</h6>
+                <ul>
+                    <li>Team</li>
+                    <li>Join Us</li>
+                    <li>Ethic</li>
+                    <li>Goals</li>
+                </ul>
+            </div>
+            <div class="divListaMenu">
+                <h6>MENU</h6>
+                <ul>
+                    <li>Combos</li>
+                    <li>Reservation</li>
+                    <li>Our Chef</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
         </div>
         <div class="contenedor2Fila">
-    <div class="weAreHere">
-        <h6>WE ARE HERE</h6>
-        <p>123 Main Street,<br>
-            123456.</p>
-    </div>
-    <div class="divOpenDaily">
-        <h6>OPEN DAILY</h6>
-        <p>Every day from:<br>
-            11 AM to 10 PM.</p>
-    </div>
-    <div class="divCallUs">
-        <h6>CALL US</h6>
-        <p>+34 123456789</p>
-    </div>
-    <div class="divSayHello">
-        <h6>SAY HELLO</h6>
-        <p>hello@yourwebsite.com<br>
-            www.yourwebsite.com</p>
-    </div>
+            <div class="weAreHere">
+                <h6>WE ARE HERE</h6>
+                <p>123 Main Street,<br>
+                    123456.</p>
+            </div>
+            <div class="divOpenDaily">
+                <h6>OPEN DAILY</h6>
+                <p>Every day from:<br>
+                    11 AM to 10 PM.</p>
+            </div>
+            <div class="divCallUs">
+                <h6>CALL US</h6>
+                <p>+34 123456789</p>
+            </div>
+            <div class="divSayHello">
+                <h6>SAY HELLO</h6>
+                <p>hello@yourwebsite.com<br>
+                    www.yourwebsite.com</p>
+            </div>
         </div>
         <div class="contenedor3Fila">
-    <div class="divFormFooter">
-        <input type="text" id="inputMailFooter" name="inputMail" placeholder="E-MAIL">
-        <button class="botonSubscribe">SUBSCRIBE</button>
-    </div>
-    <div class="divFollowUs">
-        <h6>FOLLOW US</h6>
-    </div>
-    <div class="divLogos">
-        <img src="images/RRSS/Instagram.png">
-        <img src="images/RRSS/Facebook.png">
-        <img src="images/RRSS/Twitter.png">
-    </div>
+            <div class="divFormFooter">
+                <input type="text" id="inputMailFooter" name="inputMail" placeholder="E-MAIL">
+                <button class="botonSubscribe">SUBSCRIBE</button>
+            </div>
+            <div class="divFollowUs">
+                <h6>FOLLOW US</h6>
+            </div>
+            <div class="divLogos">
+                <img src="images/RRSS/Instagram.png" alt="Imagen del logo de Instagram">
+                <img src="images/RRSS/Facebook.png" alt="Imagen del logo de Facebook">
+                <img src="images/RRSS/Twitter.png" alt="Imagen del logo de Twitter">
+            </div>
         </div>
     </div>
     <div class="contenedorCopyright">
         <p>© 2020 FOOD RESTAURANT. ALL RIGHTS RESERVED.</p>
+        <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
     </div>
 
 </footer>
-
+<script src="js/js.js"></script>
 </body>
 </html>

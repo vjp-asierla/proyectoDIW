@@ -1,9 +1,10 @@
-*{
-
-}
+/*
+    --BODY---
+ */
 body{
+    width: 100%;
+    height: 100%;
     background-color: #ff9292;
-
     background-image: url("../images/Shapes/SemiCirculoAmarillo.png"),url("../images/Shapes/SemicirculoAzul.png"),
     url("../images/Shapes/PaneldePuntos.png"),url("../images/Shapes/RayoAmarillo.png"),
     url("../images/Shapes/RayoNegro.png"),url("../images/Shapes/CirculoRosa.png"),url("../images/Shapes/CirculoRosa.png"),
@@ -14,57 +15,101 @@ body{
     url("../images/Shapes/SemiCirculoAmarillo2.png"),
     url("../images/Shapes/CajaCombo.png"),url("../images/Shapes/CajaCombo.png"),url("../images/Shapes/CajaCombo.png"),
     url("../images/Shapes/FlechaIzda.png"),url("../images/Shapes/FlechaDerecha.png"),
-    url("../images/Shapes/SemiCirculoAzulGrande.png"),url("../images/Shapes/SemiCirculoBlanco.png"),
+    url("../images/Shapes/SemiCirculoAzulGrande.png"),url("../images/Shapes/SemiCirculoBlanco.png"),url("../images/Shapes/Ellipse .png"),
+    url("../images/Shapes/Ellipse .png"),url("../images/Shapes/Ellipse .png"),url("../images/imagenes/ImagenBurgerConjunta.png"),
+    url("../images/Shapes/CruzRosa.png"),url("../images/Shapes/RayoAzul.png"),
+    url("../images/Shapes/People.png"),url("../images/Shapes/Name.png"),url("../images/Shapes/Date.png"),
+    url("../images/Shapes/Email.png"),url("../images/Shapes/Time.png"),url("../images/Shapes/Phone.png"),
+    url("../images/Shapes/FlechasAmarillas.png"),url("../images/Shapes/SemiCirculoAzulPequeño.png"),
+    url("../images/imagenes/ImagenPatatas.png"),url("../images/Shapes/PaneldePuntos.png"),
+    url("../images/Shapes/SemiCirculoAmarilloPequeño.png"),url("../images/Shapes/FlechaMulticolor.png"),
+    url("../images/Logos/LogoFondoAmarillo.png"),url("../images/Shapes/CirculosP.png"),url("../images/Shapes/CirculoAzul.png"),
+    url("../images/Shapes/SemiCirculoAzulArriba.png"),url("../images/Shapes/RayosNegroAmarillo.png"),
+    url("../images/Shapes/FlechasAmarillasAbajo.png"),url("../images/Shapes/FlechasRojas.png"),
 
-
-
+    url("../images/backgrounds/BackgroundFooter.png"),
+    url("../images/backgrounds/BackgroundAmarillo.png"),
+    url("../images/backgrounds/BackgroundRosa.png"),
+    url("../images/backgrounds/BackgroundAmarillo.png"),
+    url("../images/backgrounds/BackgroundRosa.png"),
+    url("../images/backgrounds/BackgroundAmarillo.png"),
     url("../images/backgrounds/BackgroundAmarillo.png"),
     url("../images/backgrounds/BackgroundRosa.png"),
     url("../images/backgrounds/BackgroundBlanco.png"),
     url("../images/backgrounds/BackgroundRosa.png");
     background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,
     no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat, no-repeat, no-repeat,no-repeat,
-    no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,
-    repeat-x, repeat-x,repeat-x,no-repeat;
+    no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,
+    no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,
+    no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,
+    no-repeat,no-repeat,no-repeat,
+    repeat-x,repeat-x,repeat-x,repeat-x,repeat-x,repeat-x,repeat-x, repeat-x,repeat-x,no-repeat;
 
     background-position:
-    top 845px left -10px,
-    top 885px right 0px,
-    top 680px left 30px,
-    top 580px right 0px,
-    top 640px right 0px,
-    top 1910px right 54%,
-    top 1910px right 152px,
-    top 1940px right 54%,
-    top 1975px right 54%,
-    top 2010px right 54%,
-    top 2045px right 54%,
-    top 2075px right 54%,
-    top 1910px right 152px,
-    top 1940px right 152px,
-    top 1975px right 152px,
-    top 2010px right 152px,
-    top 2045px right 152px,
-    top 2075px right 152px,
-    top 2270px left 100px,
-    top 2260px right 0px,
-    top 2875px left 50%,
-    top 2875px left 82%,
-    top 2875px left 18%,
-    top 3095px left 7%,
-    top 3095px right 270px,
-    top 3180px right 0px,
-    top 3480px left 0px,
+            top 845px left -10px,
+            top 885px right 0px,
+            top 680px left 30px,
+            top 580px right 0px,
+            top 640px right 0px,
+            top 1910px right 54%,
+            top 1910px right 8%,
+            top 1940px right 54%,
+            top 1975px right 54%,
+            top 2010px right 54%,
+            top 2045px right 54%,
+            top 2075px right 54%,
+            top 1910px right 8%,
+            top 1940px right 8%,
+            top 1975px right 8%,
+            top 2010px right 8%,
+            top 2045px right 8%,
+            top 2075px right 8%,
+            top 2270px left 100px,
+            top 2260px right 0px,
+            top 2875px left 15%,
+            top 2875px left 50%,
+            top 2875px left 86%,
+            top 3095px left 7%,
+            top 3095px right 7%,
+            top 3180px right 0,
+            top 3480px left 0,
+            top 3800px left 9.2%,
+            top 3800px left 50.5%,
+            top 3800px left 93%,
+            top 4200px left 30%,
+            top 4300px left 90%,
+            top 5020px left 0%,
+            top 5270px left 24%,
+            top 5440px left 24%,
+            top 5270px left 55%,
+            top 5440px left 55%,
+            top 5270px left 86%,
+            top 5440px left 86%,
+            top 5600px left 0%,
+            top 5700px right 0%,
+            top 5800px left -180px,
+            top 6318px left 3px,
+            top 6550px left 365px,
+            top 6430px right 50px,
+            top 6900px left 80%,
+            top 6989px left 280px,
+            top 7540px left 0px,
+            top 7627px left 55%,
+            top 7900px right 0px,
+            top 8290px left 1%,
+            top 8460px right 3%,
 
-    top 3570px right 0px,
-    top 2430px right 0px,
-    top 980px right 0px,
-    top 44px left 40px;
-
-
-
-
-
+            top 9380px right 0px,
+            top 8600px right 0px,
+            top 6550px right 0px,
+            top 5800px right 0px,
+            top 5080px right 0px,
+            top 3870px right 0px,
+            top 3570px right 0px,
+            top 2430px right 0px,
+            top 980px right 0px,
+            top 44px left 40px;
+    z-index: 0;
 }
 
 /* ---HEADER---*/
@@ -78,14 +123,34 @@ body{
 }
 #menuNav{
     margin-top: 25px;
-display: flex;
-justify-content: space-around;
-
+    display: flex;
+    justify-content: space-around;
 }
 
 #menuNav a{
     color: #fff9f4;
     padding-top: 20px;
+    transition: ease-in 0.5s;
+}
+
+
+#menuNav img{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: rotar;
+}
+
+@keyframes rotar {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+
+#menuNav a:hover{
+    transform: translateY(20px) scale(1.5);
 }
 
 .linkMenu{
@@ -94,6 +159,10 @@ justify-content: space-around;
     font-weight: 500;
     font-family: Montserrat, sans-serif;
     text-align: center;
+    transition: ease-in 0.5s;
+}
+.linkMenu:hover{
+    transform: scale(1.5);
 }
 .link{
     font-size: 19px;
@@ -103,6 +172,56 @@ justify-content: space-around;
     text-decoration:none;
 }
 /* ---ASIDE---*/
+
+
+/* ---COOKIES---*/
+.avisoCookies{
+    background-color: #fff;
+    padding: 20px;
+    width: calc(100% - 40px);
+    max-width: 300px;
+    line-height: 150%;
+    font-size: 25px;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 6;
+    bottom: 20px;
+    left: 20px;
+    padding-top: 70px;
+    box-shadow: 0px 2px 20px 10px rgba(222,222,222,.25);
+    text-align: center;
+}
+.avisoCookies img{
+    max-width: 170px;
+    position: absolute;
+    top: -85px;
+    left: calc(50% - 85px);
+}
+.avisoCookies h3{
+    margin-bottom: 15px;
+}
+.avisoCookies p{
+    margin-bottom: 15px;
+}
+.avisoCookies button{
+    width: 100%;
+    background-color: #403f3f;
+    color: white;
+    border:none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 15px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.avisoCookies button:hover{
+    background-color: black;
+}
+/* ---PRINCIPAL---*/
 #divTexto{
     padding-top: 90px;
     font-size: 100px;
@@ -111,10 +230,20 @@ justify-content: space-around;
     font-weight: 900;
     font-family: Montserrat, sans-serif;
     text-align: center;
+    animation: entrada 1s ease-in;
+}
+@keyframes entrada {
+    from{
+        margin-top: 100%;
+    }
+    to{ left: 50%;}
+
 }
 #love{
     color: yellow;
+
 }
+
 #subtitle{
     font-size: 46px;
     letter-spacing: 3px;
@@ -130,7 +259,13 @@ justify-content: space-around;
 #imagenBurger{
     text-align: center;
     filter: drop-shadow(9.259px 14.257px 21.5px rgba(0,0,0,0.3));
+    transition: linear 1s;
 }
+#imagenBurger:hover{
+    transform: scale(1.2);
+}
+
+/* ---MENÚ---*/
 #tituloMenu{
     font-size: 150px;
     letter-spacing: 11px;
@@ -208,6 +343,11 @@ justify-content: space-around;
     background-color: #ff9292;
     color:white;
 }
+.botonCartRosa:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+/* ---COMBOS---*/
 .contenedorPagCombos{
     padding-bottom: 250px;
 }
@@ -253,6 +393,12 @@ justify-content: space-around;
     background-color: #fff9f4;
     border: 3px solid #ff9292;
 }
+
+.combos .botonComboBlanco:hover{
+    background-color: #ff9292;
+    cursor: pointer;
+    color: white;
+}
 .combos .botonComboRosa{
     width: 183px;
     height: 60px;
@@ -261,11 +407,18 @@ justify-content: space-around;
     background-color: #ff9292;
     color: white;
 }
+.combos .botonComboRosa:hover{
+    background-color: #fff9f4;
+    cursor: pointer;
+    color: black;
+    border: 1px solid #ff9292;
+}
 .combos h5{
     color: black;
     font-weight: bold;
     text-shadow: 1px 1px black;
 }
+/* ---ORDER---*/
 .contenedorOrder .tituloOrder{
     font-size: 50px;
     color: #ff9292;
@@ -273,27 +426,36 @@ justify-content: space-around;
     font-family:Montserrat, sans-serif;
     text-align: center;
 }
+.tituloSectionOrder{
+    font-size: 50px;
+    color: #ff9292;
+    font-weight: 700;
+    font-family:Montserrat, sans-serif;
+    text-align: center;
+}
 .contenedorOrders{
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 
 }
 .divOrder{
     width: 400px;
     height: 400px;
-    border-radius: 250px;
-    border: 2px solid black;
+
 }
 .textoOrder{
     font-size: 19px;
     color: #403f3f;
+    width: 210px;
     font-weight: 700;
     font-family: Montserrat,sans-serif;
     text-align: center;
+    margin-left: 80px;
 
 }
+/* ---DELIVERY---*/
 .contenedorDelivery{
     width: 500px;
     height: 600px;
@@ -308,7 +470,7 @@ justify-content: space-around;
 .contenedorDelivery h3{
     font-size: 100px;
     letter-spacing: 3px;
-    color: black;
+    color: white;
     font-weight: 900;
     font-family: Montserrat,sans-serif;
 }
@@ -327,9 +489,9 @@ justify-content: space-around;
     font-weight: 400;
     font-family: "Montserrat";
 }
+/* ---RESERVATION---*/
 .contenedorReservation{
-    margin-top: 210px;
-    background-color: #ff9292;
+    margin-top: 290px;
     height: 730px;
 }
 .contenedorReservation h3{
@@ -365,6 +527,7 @@ justify-content: space-around;
     width: 264px;
     height: 60px;
     border-radius: 30px;
+    border: none;
     background-color: #fff9f4;
     position: relative;
     left:45%;
@@ -377,16 +540,18 @@ justify-content: space-around;
     font-family: "Montserrat";
     text-align: center;
 }
+/* ---ABOUT US---*/
 .divInvisible{
     width: 40%;
     height: 600px;
 }
+
 .contenedorAboutUs{
-    background-color: #ffdd67;
     display: flex;
     justify-items: flex-end;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+
 
 }
 .contenedorAboutUs h3{
@@ -404,14 +569,10 @@ justify-content: space-around;
     font-weight: 400;
     font-family: "Montserrat";
 }
-
-
-.contenedorCreators{
-    background-color: #ff9292;
-}
+/* ---CREATORS---*/
 .contenedorCreators h3{
-    padding-right: 350px;
-    padding-top: 250px;
+    padding-right: 950px;
+    padding-top: 350px;
     text-align: center;
     font-size: 69px;
     letter-spacing: 5px;
@@ -429,7 +590,7 @@ justify-content: space-around;
     width: 100px;
     height: 100px;
     border-radius: 250px;
-    border: 2px solid black;
+    border: none;
     text-align: center;
     margin-top: 50px;
     margin-left: 250px;
@@ -439,12 +600,13 @@ justify-content: space-around;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    margin-right: 950px;
+    margin-right: 740px;
     font-size: 25px;
     color: #fff9f4;
     font-weight: 700;
     font-family: "Montserrat";
 }
+
 .divPadreCreators{
     display: flex;
     justify-content: space-evenly;
@@ -468,7 +630,7 @@ justify-content: space-around;
     font-family: "Montserrat";
     text-align: center;
 }
-
+/* ---BLOGS---*/
 .contenedorBlogs{
     display: flex;
     justify-content: center;
@@ -482,6 +644,22 @@ justify-content: space-around;
 }
 .divBlogs img{
     margin-left: 65px;
+    animation: rotar 3s linear infinite;
+}
+@keyframes rotar {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{transform: rotate(360deg)}
 }
 .divBlogs p{
     margin-right: 90px;
@@ -500,12 +678,13 @@ justify-content: space-around;
     text-align: center;
     padding-left: 200px;
 }
+/* ---FOOTER---*/
 .divFooterAboutUs{
     width: 500px;
 }
 .contenedor1Fila{
 
-display: flex;
+    display: flex;
     justify-content: space-around;
     margin-top: 100px;
 }
@@ -549,15 +728,283 @@ footer h6{
     font-family: "Montserrat";
     text-align: center;
 }
+.divFormFooter button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
 .divFormFooter input{
     width: 350px;
     border-radius: 150px;
     line-height: 30px;
 }
+.divFormFooter input:focus{
+
+    -webkit-box-shadow: 3px 4px 5px 5px rgba(9, 7, 7, 0.75);
+    -moz-box-shadow:    5px 1px 5px 5px rgba(1, 1, 5, 0.75);
+    box-shadow:         1px 1px 5px 5px rgba(4, 4, 12, 0.75);
+}
 .contenedorCopyright{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 50px;
-    background-color: #ff9292;
+    height: 60px;
+
+}
+/* ---MEDIA QUERY PARA DISEÑO ALTERNATIVO---*/
+@media (max-width: 1300px)and (min-width: 751px){
+    body{
+        background-image:
+                url("../images/imagenes/ImagenPatatas.png"),
+
+
+                url("../images/backgrounds/BackgroundFooter.png"),
+                url("../images/backgrounds/BackgroundAmarillo.png"),
+                url("../images/backgrounds/BackgroundRosa.png"),
+                url("../images/backgrounds/BackgroundAmarillo.png"),
+                url("../images/backgrounds/BackgroundRosa.png"),
+                url("../images/backgrounds/BackgroundAmarillo.png"),
+                url("../images/backgrounds/BackgroundAmarillo.png"),
+                url("../images/backgrounds/BackgroundRosa.png"),
+                url("../images/backgrounds/BackgroundBlanco.png"),
+                url("../images/backgrounds/BackgroundRosa.png");
+
+        background-repeat: no-repeat,repeat-x,repeat-x,repeat-x,repeat-x,repeat-x,repeat-x,repeat-x,repeat-x,repeat-x,repeat-x;
+
+        background-position:
+                top 6200px right 550px,
+
+                top 9670px right 0px,
+                top 8900px right 0px,
+                top 6750px right 0px,
+                top 6000px right 0px,
+                top 5080px right 0px,
+                top 3870px right 0px,
+                top 3570px right 0px,
+                top 2730px right 0px,
+                top 980px right 0px,
+                top 44px left 40px;
+
+
+
+    }
+    #menuNav a:hover{
+        transform: translateY(20px) scale(1.5);
+    }
+    .combos{
+        border-radius: 30px;
+        border: 2px solid white;
+        background-color: #fff;
+    }
+
+    .divOrder{
+
+        margin-right: 20px;
+        border-radius: 100px;
+        border: 2px solid white;
+        background-color: #fff;
+    }
+    .contenedorReservation h3{
+        line-height: 145px   ;
+    }
+    .fila1 p{
+        padding-left: 15px;
+        width: 250px;
+        border-radius: 20px;
+        background-color: #fff;
+        color:#ff9292;
+    }
+    .fila2 p{
+        padding-left: 15px;
+        width: 250px;
+        border-radius: 20px;
+        background-color: #fff;
+        color:#ff9292;
+    }
+    .botonSubmitBlanco{
+        margin-top: 115px;
+        width: 264px;
+        height: 60px;
+        border-radius: 30px;
+        border: none;
+        background-color: #fff9f4;
+        position: relative;
+        left: 40%;
+    }
+    .contenedorAboutUs{
+        margin-top: 150px;
+    }
+
+    .contenedorCreators h3{
+        padding-top: 250px;
+        padding-right: 50px;
+    }
+    .contenedorInfoCreators{
+        margin-right: 50px;
+
+    }
+    .divP:first-child{
+        border-radius: 250px;
+        border:2px solid aqua;
+    }
+    .divP{
+        border-radius: 250px;
+        border:2px solid yellow;
+    }
+
+    .divBlogs p{
+        padding-left: 150px;
+    }
+
+}
+/* ---MEDIA QUERY PARA MOVIL---*/
+@media (max-width: 750px){
+
+    body{
+        background-color: white;
+        background-image: none;
+
+    }
+
+
+    header{
+        margin-top: -25px;
+        padding-top: 20px;
+        background-color: #ff9292;
+    }
+    aside{
+        background-color: #ff9292;
+    }
+    .contenedorMenu{
+        background-color: white;
+    }
+    .contenedorOrder{
+        background-color: #ffdd67;
+    }
+    #divTexto #discover{
+        display: none;
+    }
+    .contenedorMenu{
+        padding-top: 20px;
+    }
+    .contenedorAboutUs{
+        background-color: #ffdd67;
+    }
+    .contenedorBurgerBlog{
+        background-color: white;
+    }
+    .contenedorFooter{
+        background-color: #ffdd67;
+    }
+    .contenedorMenu #divLorem{
+        display: none;
+    }
+
+    .contenedorPagCombos .contenedorCombos{
+        border-radius: 100px;
+        border: 2px solid white;
+        background-color: white;
+    }
+    .contenedorPagCombos .botonComboRosa{
+        border: 2px solid #ff9292;
+    }
+    .contenedorPagCombos .botonComboRosa:hover{
+        background-color: #ff9292;
+        color: white;
+    }
+
+    .contenedorOrder .divOrder:first-child{
+        display: none;
+    }
+    .contenedorOrder .divOrder{
+        border-radius: 250px;
+        border: 2px solid white;
+        background-color: white;
+        margin-right: 20px;
+    }
+    .contenedorOrder .padreDelivery{
+        display: block;
+        padding-left: 70px;
+    }
+    .botonCartRosa:hover{
+        transform: none;
+        background-color: white;
+        color: black;
+    }
+    .contenedorReservation{
+        margin-top: 0px;
+    }
+    .botonSubmitBlanco{
+        display: none;
+    }
+    .contenedorReservation h3{
+        margin-top: 0px;
+        padding-left: 40px;
+        line-height: 150px;
+
+    }
+
+    .contenedorPrecios .divMenu{
+        margin-left: 20px;
+    }
+    .contenedorPagCombos h2{
+        padding-top: 20px;
+    }
+    .contenedorPagCombos .pCombos{
+        display: none;
+    }
+    .contenedorDelivery p{
+        margin-bottom: -65px;
+    }
+    .fila1 p{
+        padding-left: 15px;
+        width: 250px;
+        border-radius: 20px;
+        background-color: #fff;
+        color:#ff9292;
+    }
+    .fila2 p{
+        padding-left: 15px;
+        width: 250px;
+        border-radius: 20px;
+        background-color: #fff;
+        color:#ff9292;
+    }
+    .divInvisible{
+        display: none;
+    }
+    .contenedorCreators h3{
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    .contenedorInfoCreators{
+        margin-right: 50px;
+        padding-left: 20px;
+    }
+    .divP{
+        display: none;
+    }
+    .divFormFooter button:hover{
+        background-color: white;
+        color: #ff9292;
+
+        transform: none;
+    }
+    .contenedorCopyright{
+        padding-top: 20px;
+        background-color: #ff9292;
+    }
+    .contenedorBlogs .divBlogs:first-child{
+        display: none;
+    }
+    .contenedorBlogs .divBlogs:last-child{
+        display: none;
+    }
+    .combos #cheesecake{
+        height: 40px;
+    }
+    .combos .botonComboRosa{
+        margin-bottom: 20px;
+        background-color: #fff;
+        color: black;
+    }
 }
